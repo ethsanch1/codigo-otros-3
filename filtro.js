@@ -78,7 +78,7 @@ botonDeFiltro.onclick = function () {
   }
 };
 
-const filtrado = (productos = [i], ) => {
+const filtrado = (productos = [i]) => {
   return productos.filter(
     (item) => item.tipo.includes(texto) || item.color.includes(texto)
   );
